@@ -15,6 +15,7 @@ Color grayColor2 = const Color(0xFFC4C4C4);
 Color grayColor3 = const Color(0xFFE1E1E1);
 Color grayColor4 = const Color(0xFF828282);
 Color grayColor5 = const Color(0xFFEBEBEB);
+Color grayColor6 = const Color(0xFFCECECE);
 Color blueColor = const Color(0xFF0E70E3);
 Color greenColor1 = const Color(0xFF019557);
 Color greenColor2 = const Color(0xFF0ACF83);
@@ -34,6 +35,7 @@ TextStyle redTextStyle2 = GoogleFonts.poppins(color: redColor2);
 TextStyle grayTextStyle = GoogleFonts.poppins(color: grayColor2);
 TextStyle goldTextStyle = GoogleFonts.poppins(color: goldColor);
 TextStyle greenTextStyle = GoogleFonts.poppins(color: greenColor1);
+TextStyle bottomNavBarTextStyle = GoogleFonts.poppins(color: grayColor6);
 
 FontWeight light = FontWeight.w300;
 FontWeight reguler = FontWeight.w400;

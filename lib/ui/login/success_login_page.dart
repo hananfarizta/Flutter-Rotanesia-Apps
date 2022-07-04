@@ -47,7 +47,7 @@ class SuccessLogin extends StatelessWidget {
         width: double.infinity,
         child: ElevatedButton(
           onPressed: () {
-            Get.offNamed(Routes.signin);
+            Get.offNamed(Routes.main);
           },
           style: ButtonStyle(
               backgroundColor: MaterialStateProperty.resolveWith<Color>(

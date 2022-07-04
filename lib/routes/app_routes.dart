@@ -12,4 +12,9 @@ abstract class Routes {
   static const successRegister = '/successRegister';
   static const signin = '/signin';
   static const successLogin = '/successLogin';
+  static const main = '/main';
+  static const home = '/home';
+  static const trending = '/trending';
+  static const forum = '/forum';
+  static const profile = '/profile';
 }
