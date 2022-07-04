@@ -26,6 +26,7 @@ Color additionColor = const Color(0xFFE3C84C);
 Color fittingsColor = const Color(0xFFFF936B);
 Color footwearColor = const Color(0xFFEBB58F);
 Color goldColor = const Color(0xFFBD7D01);
+Color starColor = const Color(0xFFFFC300);
 
 TextStyle primaryTextStyle = GoogleFonts.poppins(color: blackColor1);
 TextStyle secondaryTextStyle = GoogleFonts.poppins(color: grayColor1);

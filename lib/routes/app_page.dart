@@ -15,6 +15,7 @@ import 'package:rotania_apps/ui/register/success_register.dart';
 import 'package:rotania_apps/ui/splashscreen/splash_page.dart';
 import 'package:rotania_apps/ui/trending/trending_page.dart';
 import 'package:rotania_apps/ui/welcome/welcome_page.dart';
+import 'package:rotania_apps/widgets/bestseller_card.dart';
 
 part 'app_routes.dart';
 
