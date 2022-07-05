@@ -1,16 +1,12 @@
-# rotania_apps
+# Rotanesia - Berawal dari Indonesia untuk Rotan yang mendunia
 
-A new Flutter project.
+Rotanesia is an application that aims to accommodate rattan craftsmen in marketing rattan handicraft products. 
+This application is expected to be able to facilitate the craftsmen in helping the marketing process and also selling the products they have
 
-## Getting Started
+## AfterBath Team
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+| Name| Role |
+| ------------ | ------------ |
+| Muhammad Rizal Bimantoro | Hustler |
+| Muhammad Hanan Rafif Faritza | Hacker |
+| Yohanes Nico Kristiawan | Hipster |
