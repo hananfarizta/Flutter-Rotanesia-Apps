@@ -594,13 +594,6 @@ class HomePage extends StatelessWidget {
             const SizedBox(
               height: 10,
             ),
-            const Divider(
-              color: Color(0xffEDEDED),
-              thickness: 1,
-            ),
-            const SizedBox(
-              height: 10,
-            ),
           ],
         ),
       );
