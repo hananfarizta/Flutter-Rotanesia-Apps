@@ -26,7 +26,7 @@ Color additionColor = const Color(0xFFE3C84C);
 Color fittingsColor = const Color(0xFFFF936B);
 Color footwearColor = const Color(0xFFEBB58F);
 Color goldColor = const Color(0xFFBD7D01);
-Color starColor = const Color(0xFFFFC300);
+Color cyanColor = const Color(0xFF00849B);
 
 TextStyle primaryTextStyle = GoogleFonts.poppins(color: blackColor1);
 TextStyle secondaryTextStyle = GoogleFonts.poppins(color: grayColor1);
@@ -37,6 +37,7 @@ TextStyle grayTextStyle = GoogleFonts.poppins(color: grayColor2);
 TextStyle goldTextStyle = GoogleFonts.poppins(color: goldColor);
 TextStyle greenTextStyle = GoogleFonts.poppins(color: greenColor1);
 TextStyle bottomNavBarTextStyle = GoogleFonts.poppins(color: grayColor6);
+TextStyle cyanTextStyle = GoogleFonts.poppins(color: cyanColor);
 
 FontWeight light = FontWeight.w300;
 FontWeight reguler = FontWeight.w400;
