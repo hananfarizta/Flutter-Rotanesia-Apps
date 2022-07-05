@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:rotania_apps/models/bestseller.dart';
-import 'package:rotania_apps/models/favorite_craftsman.dart';
-import 'package:rotania_apps/models/news.dart';
-import 'package:rotania_apps/shared/theme.dart';
-import 'package:rotania_apps/widgets/bestseller_card.dart';
-import 'package:rotania_apps/widgets/favorite_craftsman_card.dart';
-import 'package:rotania_apps/widgets/news_card.dart';
+import 'package:rotanesia_apps/models/bestseller.dart';
+import 'package:rotanesia_apps/models/favorite_craftsman.dart';
+import 'package:rotanesia_apps/models/news.dart';
+import 'package:rotanesia_apps/shared/theme.dart';
+import 'package:rotanesia_apps/widgets/bestseller_card.dart';
+import 'package:rotanesia_apps/widgets/favorite_craftsman_card.dart';
+import 'package:rotanesia_apps/widgets/news_card.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);

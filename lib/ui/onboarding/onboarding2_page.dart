@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:rotania_apps/routes/app_page.dart';
-import 'package:rotania_apps/shared/theme.dart';
+import 'package:rotanesia_apps/routes/app_page.dart';
+import 'package:rotanesia_apps/shared/theme.dart';
 
 class OnBoarding2 extends StatelessWidget {
   const OnBoarding2({Key? key}) : super(key: key);

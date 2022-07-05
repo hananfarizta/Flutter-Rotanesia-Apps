@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:rotania_apps/models/news.dart';
-import 'package:rotania_apps/shared/theme.dart';
+import 'package:rotanesia_apps/models/news.dart';
+import 'package:rotanesia_apps/shared/theme.dart';
 
 class NewsCard extends StatelessWidget {
   final News news;

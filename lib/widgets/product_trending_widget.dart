@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:rotania_apps/shared/theme.dart';
+import 'package:rotanesia_apps/shared/theme.dart';
 
 class ProductTrending extends StatelessWidget {
   const ProductTrending({Key? key}) : super(key: key);

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:rotania_apps/routes/app_page.dart';
-import 'package:rotania_apps/shared/theme.dart';
+import 'package:rotanesia_apps/routes/app_page.dart';
+import 'package:rotanesia_apps/shared/theme.dart';
 import 'package:get/get.dart';
 
 class SplashPage extends StatelessWidget {

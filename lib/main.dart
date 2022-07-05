@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/route_manager.dart';
-import 'package:rotania_apps/routes/app_page.dart';
+import 'package:rotanesia_apps/routes/app_page.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();

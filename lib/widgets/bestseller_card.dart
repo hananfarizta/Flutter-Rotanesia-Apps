@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:rotania_apps/models/bestseller.dart';
-import 'package:rotania_apps/shared/theme.dart';
+import 'package:rotanesia_apps/models/bestseller.dart';
+import 'package:rotanesia_apps/shared/theme.dart';
 
 class BestSellerCard extends StatelessWidget {
   final BestSeller bestseller;

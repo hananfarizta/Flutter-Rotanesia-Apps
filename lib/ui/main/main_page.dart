@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:rotania_apps/shared/theme.dart';
-import 'package:rotania_apps/ui/forum/forum_page.dart';
-import 'package:rotania_apps/ui/home/home_page.dart';
-import 'package:rotania_apps/ui/profile/profile_page.dart';
-import 'package:rotania_apps/ui/trending/trending_page.dart';
+import 'package:rotanesia_apps/shared/theme.dart';
+import 'package:rotanesia_apps/ui/forum/forum_page.dart';
+import 'package:rotanesia_apps/ui/home/home_page.dart';
+import 'package:rotanesia_apps/ui/profile/profile_page.dart';
+import 'package:rotanesia_apps/ui/trending/trending_page.dart';
 
 class MainPage extends StatefulWidget {
   const MainPage({Key? key}) : super(key: key);

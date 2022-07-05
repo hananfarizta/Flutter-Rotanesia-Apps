@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:rotania_apps/shared/theme.dart';
-import 'package:rotania_apps/widgets/news_trending_widget.dart';
-import 'package:rotania_apps/widgets/product_trending_widget.dart';
+import 'package:rotanesia_apps/shared/theme.dart';
+import 'package:rotanesia_apps/widgets/news_trending_widget.dart';
+import 'package:rotanesia_apps/widgets/product_trending_widget.dart';
 
 class TrendingPage extends StatelessWidget {
   const TrendingPage({Key? key}) : super(key: key);

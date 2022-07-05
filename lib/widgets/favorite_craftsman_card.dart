@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:rotania_apps/models/favorite_craftsman.dart';
-import 'package:rotania_apps/shared/theme.dart';
+import 'package:rotanesia_apps/models/favorite_craftsman.dart';
+import 'package:rotanesia_apps/shared/theme.dart';
 
 class FavoriteCraftsmanCard extends StatelessWidget {
   final FavoriteCraftsman favoritecraftsman;
