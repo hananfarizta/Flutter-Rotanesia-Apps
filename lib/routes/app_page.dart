@@ -19,7 +19,7 @@ import 'package:rotanesia_apps/ui/welcome/welcome_page.dart';
 part 'app_routes.dart';
 
 class AppPages {
-  static const initial = Routes.main;
+  static const initial = Routes.splash;
   static final routes = [
     GetPage(name: Routes.splash, page: () => const SplashPage()),
     GetPage(name: Routes.onboarding1, page: () => const OnBoarding1()),
