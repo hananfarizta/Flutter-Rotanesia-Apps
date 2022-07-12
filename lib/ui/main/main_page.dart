@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:rotanesia_apps/routes/app_page.dart';
 import 'package:rotanesia_apps/shared/theme.dart';
 import 'package:rotanesia_apps/ui/forum/forum_page.dart';
 import 'package:rotanesia_apps/ui/home/home_page.dart';
 import 'package:rotanesia_apps/ui/profile/profile_page.dart';
 import 'package:rotanesia_apps/ui/trending/trending_page.dart';
+import 'package:get/get.dart';
 
 class MainPage extends StatefulWidget {
   const MainPage({Key? key}) : super(key: key);
@@ -22,9 +24,14 @@ class _MainPageState extends State<MainPage> {
       return FloatingActionButton(
         backgroundColor: redColor1,
         onPressed: () {},
-        child: SvgPicture.asset(
-          'assets/vector/ic_scan.svg',
-          width: 24,
+        child: GestureDetector(
+          onTap: () {
+            Get.toNamed(Routes.scan);
+          },
+          child: SvgPicture.asset(
+            'assets/vector/ic_scan.svg',
+            width: 24,
+          ),
         ),
       );
     }

@@ -17,8 +17,32 @@ class BestSellerCard extends StatelessWidget {
           children: [
             Padding(
               padding: const EdgeInsets.only(left: 15, right: 15, top: 10),
-              child: Image.asset(
-                bestseller.imgUrl,
+              child: SizedBox(
+                child: Stack(
+                  children: [
+                    Image.asset(
+                      bestseller.imgUrl,
+                    ),
+                    Container(
+                      height: 21,
+                      width: 100,
+                      decoration: BoxDecoration(
+                        borderRadius: const BorderRadius.only(
+                          topLeft: Radius.circular(10),
+                          bottomRight: Radius.circular(10),
+                        ),
+                        color: greenColor1,
+                      ),
+                      child: Center(
+                        child: Text(
+                          'HIGHLIGHT',
+                          style: whiteTextStyle.copyWith(
+                              fontSize: 10, fontWeight: medium),
+                        ),
+                      ),
+                    )
+                  ],
+                ),
               ),
             ),
             Padding(

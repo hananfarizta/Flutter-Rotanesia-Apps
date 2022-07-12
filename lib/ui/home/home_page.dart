@@ -366,7 +366,7 @@ class HomePage extends StatelessWidget {
           right: defaultMargin,
           top: 20,
         ),
-        padding: EdgeInsets.symmetric(vertical: defaultMargin, horizontal: 15),
+        padding: EdgeInsets.symmetric(vertical: defaultMargin, horizontal: 20),
         width: double.infinity,
         height: 150,
         decoration: BoxDecoration(
@@ -407,7 +407,7 @@ class HomePage extends StatelessWidget {
             ),
             Image.asset(
               'assets/bitmap/image_big_wallet.png',
-              width: 108,
+              width: 115,
               height: double.infinity,
             )
           ],

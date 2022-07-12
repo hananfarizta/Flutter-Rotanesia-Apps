@@ -17,4 +17,6 @@ abstract class Routes {
   static const trending = '/trending';
   static const forum = '/forum';
   static const profile = '/profile';
+  static const scan = '/scan';
+  static const cart = '/cart';
 }
