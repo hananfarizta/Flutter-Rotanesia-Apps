@@ -19,4 +19,7 @@ abstract class Routes {
   static const profile = '/profile';
   static const scan = '/scan';
   static const cart = '/cart';
+  static const delivery = '/delivery';
+  static const purchasing = '/purchasing';
+  static const successPurchase = '/successPurchase';
 }

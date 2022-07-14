@@ -1,5 +1,8 @@
 import 'package:get/route_manager.dart';
+import 'package:rotanesia_apps/purchasing/purchasing_page.dart';
+import 'package:rotanesia_apps/purchasing/success_purchasing_page.dart';
 import 'package:rotanesia_apps/ui/cart/mycart_page.dart';
+import 'package:rotanesia_apps/ui/delivery/delivery_page.dart';
 import 'package:rotanesia_apps/ui/forum/forum_page.dart';
 import 'package:rotanesia_apps/ui/home/home_page.dart';
 import 'package:rotanesia_apps/ui/login/signin_page.dart';
@@ -40,5 +43,8 @@ class AppPages {
     GetPage(name: Routes.forum, page: () => const ForumPage()),
     GetPage(name: Routes.scan, page: () => const ScanPage()),
     GetPage(name: Routes.cart, page: () => const MyCartPage()),
+    GetPage(name: Routes.delivery, page: () => const DeliveryPage()),
+    GetPage(name: Routes.purchasing, page: () => const PurchasingPage()),
+    GetPage(name: Routes.successPurchase, page: () => const SuccessPurchase()),
   ];
 }

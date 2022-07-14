@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:rotanesia_apps/routes/app_page.dart';
 import 'package:rotanesia_apps/shared/theme.dart';
+import 'package:get/get.dart';
 
 class MyCartPage extends StatefulWidget {
   const MyCartPage({Key? key}) : super(key: key);
@@ -18,9 +20,14 @@ class _MyCartPageState extends State<MyCartPage> {
       return PreferredSize(
         preferredSize: const Size.fromHeight(74),
         child: AppBar(
-          leading: Icon(
-            Icons.arrow_back_ios_new_rounded,
-            color: redColor1,
+          leading: GestureDetector(
+            onTap: () {
+              Get.back();
+            },
+            child: Icon(
+              Icons.arrow_back_ios_new_rounded,
+              color: redColor1,
+            ),
           ),
           leadingWidth: 80,
           backgroundColor: whiteColor,
@@ -353,10 +360,15 @@ class _MyCartPageState extends State<MyCartPage> {
                     color: redColor1,
                   ),
                   child: Center(
-                    child: Text(
-                      'Buy (1)',
-                      style: whiteTextStyle.copyWith(
-                        fontSize: 16,
+                    child: GestureDetector(
+                      onTap: () {
+                        Get.toNamed(Routes.delivery);
+                      },
+                      child: Text(
+                        'Buy (1)',
+                        style: whiteTextStyle.copyWith(
+                          fontSize: 16,
+                        ),
                       ),
                     ),
                   ),
