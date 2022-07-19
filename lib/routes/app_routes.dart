@@ -22,4 +22,8 @@ abstract class Routes {
   static const delivery = '/delivery';
   static const purchasing = '/purchasing';
   static const successPurchase = '/successPurchase';
+  static const wishlist = '/wishlist';
+  static const wallet = '/wallet';
+  static const transaction = '/transaction';
+  static const tracking = '/tracking';
 }

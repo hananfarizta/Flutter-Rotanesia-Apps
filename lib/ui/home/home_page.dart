@@ -3,10 +3,12 @@ import 'package:flutter_svg/svg.dart';
 import 'package:rotanesia_apps/models/bestseller.dart';
 import 'package:rotanesia_apps/models/favorite_craftsman.dart';
 import 'package:rotanesia_apps/models/news.dart';
+import 'package:rotanesia_apps/routes/app_page.dart';
 import 'package:rotanesia_apps/shared/theme.dart';
 import 'package:rotanesia_apps/widgets/bestseller_card.dart';
 import 'package:rotanesia_apps/widgets/favorite_craftsman_card.dart';
 import 'package:rotanesia_apps/widgets/news_card.dart';
+import 'package:get/get.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -52,8 +54,13 @@ class HomePage extends StatelessWidget {
             ),
             Row(
               children: [
-                SvgPicture.asset(
-                  'assets/vector/ic_favorite.svg',
+                GestureDetector(
+                  onTap: () {
+                    Get.toNamed(Routes.wishlist);
+                  },
+                  child: SvgPicture.asset(
+                    'assets/vector/ic_favorite.svg',
+                  ),
                 ),
                 const SizedBox(
                   width: 20,
@@ -64,8 +71,13 @@ class HomePage extends StatelessWidget {
                 const SizedBox(
                   width: 20,
                 ),
-                SvgPicture.asset(
-                  'assets/vector/ic_cart.svg',
+                GestureDetector(
+                  onTap: () {
+                    Get.toNamed(Routes.cart);
+                  },
+                  child: SvgPicture.asset(
+                    'assets/vector/ic_cart.svg',
+                  ),
                 ),
               ],
             )

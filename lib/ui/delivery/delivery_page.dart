@@ -690,7 +690,7 @@ class DeliveryPage extends StatelessWidget {
                           fontSize: 14, fontWeight: medium),
                     ),
                     Text(
-                      'Rp 150.000,-',
+                      'Rp 90.000,-',
                       style: redTextStyle2.copyWith(
                         fontSize: 16,
                         fontWeight: semibold,
@@ -793,8 +793,8 @@ class DeliveryPage extends StatelessWidget {
                         style: primaryTextStyle.copyWith(fontSize: 12),
                       ),
                       Text(
-                        'Rp 0',
-                        style: redTextStyle2.copyWith(
+                        'Rp 50.000',
+                        style: primaryTextStyle.copyWith(
                             fontWeight: semibold, fontSize: 12),
                       )
                     ],
@@ -836,7 +836,7 @@ class DeliveryPage extends StatelessWidget {
                             fontSize: 12, fontWeight: semibold),
                       ),
                       Text(
-                        'Rp 115.000',
+                        'Rp 90.000',
                         style: primaryTextStyle.copyWith(
                             fontWeight: semibold, fontSize: 12),
                       )

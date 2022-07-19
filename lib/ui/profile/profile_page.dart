@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:rotanesia_apps/routes/app_page.dart';
 import 'package:rotanesia_apps/shared/theme.dart';
+import 'package:get/get.dart';
 
 class ProfilePage extends StatelessWidget {
   const ProfilePage({Key? key}) : super(key: key);
@@ -78,22 +80,24 @@ class ProfilePage extends StatelessWidget {
     }
 
     Widget signinButton() {
-      return Container(
-        height: 60,
-        width: double.infinity,
-        margin: EdgeInsets.only(
-          left: defaultMargin,
-          right: defaultMargin,
-          top: 12,
-        ),
-        padding: const EdgeInsets.symmetric(vertical: 18, horizontal: 15),
-        decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(8),
-            color: whiteColor,
-            border: Border.all(color: blackColor1)),
-        child: Center(
-          child: GestureDetector(
-            onTap: () {},
+      return GestureDetector(
+        onTap: () {
+          Get.toNamed(Routes.wallet);
+        },
+        child: Container(
+          height: 60,
+          width: double.infinity,
+          margin: EdgeInsets.only(
+            left: defaultMargin,
+            right: defaultMargin,
+            top: 12,
+          ),
+          padding: const EdgeInsets.symmetric(vertical: 18, horizontal: 15),
+          decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(8),
+              color: whiteColor,
+              border: Border.all(color: blackColor1)),
+          child: Center(
             child: Row(
               children: [
                 Image.asset(
@@ -155,25 +159,30 @@ class ProfilePage extends StatelessWidget {
             const SizedBox(
               height: 30,
             ),
-            Row(
-              children: [
-                SvgPicture.asset('assets/vector/ic_transaction.svg'),
-                const SizedBox(
-                  width: 15,
-                ),
-                Expanded(
-                  child: Text(
-                    'Transaction',
-                    style: primaryTextStyle.copyWith(
-                        fontSize: 16, fontWeight: medium),
+            GestureDetector(
+              onTap: () {
+                Get.toNamed(Routes.transaction);
+              },
+              child: Row(
+                children: [
+                  SvgPicture.asset('assets/vector/ic_transaction.svg'),
+                  const SizedBox(
+                    width: 15,
                   ),
-                ),
-                Icon(
-                  Icons.arrow_forward_ios_rounded,
-                  color: grayColor4,
-                  size: 20,
-                )
-              ],
+                  Expanded(
+                    child: Text(
+                      'Transaction',
+                      style: primaryTextStyle.copyWith(
+                          fontSize: 16, fontWeight: medium),
+                    ),
+                  ),
+                  Icon(
+                    Icons.arrow_forward_ios_rounded,
+                    color: grayColor4,
+                    size: 20,
+                  )
+                ],
+              ),
             ),
             const SizedBox(
               height: 20,

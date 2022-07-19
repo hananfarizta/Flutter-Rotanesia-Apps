@@ -18,13 +18,17 @@ import 'package:rotanesia_apps/ui/register/signup3_page.dart';
 import 'package:rotanesia_apps/ui/register/success_register.dart';
 import 'package:rotanesia_apps/ui/scan/scan_page.dart';
 import 'package:rotanesia_apps/ui/splashscreen/splash_page.dart';
+import 'package:rotanesia_apps/ui/transaction/mytransaction_page.dart';
+import 'package:rotanesia_apps/ui/transaction/tracking_page.dart';
 import 'package:rotanesia_apps/ui/trending/trending_page.dart';
+import 'package:rotanesia_apps/ui/wallet/mywallet_page.dart';
 import 'package:rotanesia_apps/ui/welcome/welcome_page.dart';
+import 'package:rotanesia_apps/ui/wishlist/wistlist_page.dart';
 
 part 'app_routes.dart';
 
 class AppPages {
-  static const initial = Routes.cart;
+  static const initial = Routes.main;
   static final routes = [
     GetPage(name: Routes.splash, page: () => const SplashPage()),
     GetPage(name: Routes.onboarding1, page: () => const OnBoarding1()),
@@ -46,5 +50,9 @@ class AppPages {
     GetPage(name: Routes.delivery, page: () => const DeliveryPage()),
     GetPage(name: Routes.purchasing, page: () => const PurchasingPage()),
     GetPage(name: Routes.successPurchase, page: () => const SuccessPurchase()),
+    GetPage(name: Routes.wishlist, page: () => const WishlistPage()),
+    GetPage(name: Routes.wallet, page: () => const MyWalletPage()),
+    GetPage(name: Routes.transaction, page: () => const MyTransactionpage()),
+    GetPage(name: Routes.tracking, page: () => const TrackingPage()),
   ];
 }
